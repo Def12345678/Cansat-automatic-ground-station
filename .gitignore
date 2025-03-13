@@ -1,22 +1,22 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
-.vscode/
-#Cache folder
-.alcache/
-#Symbols folder
-.alpackages/
-#Snapshots folder
-.snapshots/
-#Testing Output folder
-.output/
-#Extension App-file
-*.app
-#Rapid Application Development File
-rad.json
-#Translation Base-file
-*.g.xlf
-#License-file
-*.flf
-#Test results file
-TestResults.xml
+node_modules/
+lib/
+downloads/
+arduino-ide-extension/src/node/resources
+arduino-ide-extension/Examples/
+src-gen/
+gen-webpack.config.js
+gen-webpack.node.config.js
+.DS_Store
+# switching from `electron` to `browser` in dev mode.
+.browser_modules
+yarn*.log
+# For the VS Code extensions used by Theia.
+electron-app/plugins
+# the tokens folder for the themes
+scripts/themes/tokens
+# content trace files for electron
+electron-app/traces
+# any Arduino LS generated log files
+inols*.log
+# The electron-builder output.
+electron-app/dist
